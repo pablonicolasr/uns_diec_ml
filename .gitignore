@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+tp_4/data/
+tp_4/data_models/
+
 # Distribution / packaging
 .Python
 build/
