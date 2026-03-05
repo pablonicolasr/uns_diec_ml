@@ -1,0 +1,35 @@
+name: am_uns
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - pandas
+  - scipy
+  - numpy
+  - seaborn
+  - scikit-image
+  - rasterio
+  - gdal
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - rtree
+  - libspatialindex
+  - lightgbm
+  - catboost
+  - xgboost
+  - scikit-learn
+  - ipykernel
+  - opencv
+  - mahotas
+  - tqdm
+  - hdbscan
+  - umap-learn
+  - nltk
+  - shap
+  - pillow
+  - wordcloud
+  - openpyxl
