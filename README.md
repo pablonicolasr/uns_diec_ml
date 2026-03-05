@@ -1,17 +1,18 @@
 # uns_diec_ml
 
-**Machine Learning (PhD in Engineering) — Department of Electronic Engineering and Computing (DIEC)**  
+**Machine Learning (PhD in Engineering) — Department of Electronic Engineering and Computing (DIEC)**
+
 This repository contains solutions and implementations for the **Machine Learning** course in the PhD program in Engineering at **DIEC**. It includes **code, experiments, and reports** covering core algorithms and advanced methods for research and practice.
 
 ---
 
-## What’s inside
+## Contents
 
-- **Implementations** of ML algorithms (from fundamentals to advanced methods)
-- **Experiments** with solid methodology: splits, baselines, metrics, ablations
-- **Reports / notebooks** documenting assumptions, results, and conclusions
-- **Reusable utilities** for data loading, preprocessing, evaluation, and plotting
-- A **reproducible Conda environment** for Windows + Anaconda + Python 3.12
+- **Practical Works (TPs)** implemented in **Python**
+- **Jupyter Notebooks** with experiments, plots, and analysis
+- Coverage of **core + advanced ML** methods (supervised/unsupervised, model selection, evaluation, etc.)
+- Reusable utilities for **preprocessing, metrics, and visualization**
+- Reproducible setup via **Conda**
 
 ---
 
@@ -24,3 +25,34 @@ This repository contains solutions and implementations for the **Machine Learnin
 - **Workbench:** Jupyter Notebook / JupyterLab  
 
 ---
+
+## Conda setup (Windows + Anaconda)
+
+```bash
+conda env create -f environment.yml
+conda activate uns-diec-ml
+```
+
+Register the kernel for Jupyter:
+
+```bash
+python -m ipykernel install --user --name uns-diec-ml --display-name "Python (uns-diec-ml)"
+```
+
+Launch notebooks:
+
+```bash
+jupyter notebook
+```
+---
+
+## License
+
+Academic / educational use. If you reuse parts of this repository, please provide attribution.
+
+---
+
+## Author
+
+**Pablo Nicolás Ramos**  
+PhD Program in Engineering — Machine Learning (DIEC)
