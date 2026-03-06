@@ -30,13 +30,13 @@ This repository contains solutions and implementations for the **Machine Learnin
 
 ```bash
 conda env create -f environment.yml
-conda activate uns-diec-ml
+conda activate am_uns
 ```
 
 Register the kernel for Jupyter:
 
 ```bash
-python -m ipykernel install --user --name uns-diec-ml --display-name "Python (uns-diec-ml)"
+python -m ipykernel install --user --name am_uns --display-name "Python (am_uns)"
 ```
 
 Launch notebooks:
